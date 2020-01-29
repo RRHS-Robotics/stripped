@@ -50,37 +50,13 @@ public class OI {
 	
 	Button intakeForward = new JoystickButton(controller, 1);
 	Button intakeReverse = new JoystickButton(controller, 2);
-	Button lowerIntake = new JoystickButton(controller, 5);
-	Button raiseIntake = new JoystickButton(controller, 6);
 	
 	public boolean invertMotorButton() {
 		return controller.getStickButtonPressed(Hand.kLeft);
 	}
 	
-	public boolean spinFourButton() {
-		return controller.getAButtonPressed();
-	}
-
-	public boolean spinColorButton() {
-		return controller.getBButtonPressed();
-	}
-	
-	public boolean blueButton() {
-		return controller.getXButtonPressed();
-	}
-	public boolean greenButton() {
-		return controller.getAButtonPressed();
-	}
-	public boolean redButton() {
-		return controller.getBButtonPressed();
-	}
-	public boolean yellowButton() {
-		return controller.getYButtonPressed();
-	}
-	public boolean yellowButtonHeld() {
-		return controller.getYButton();
-	}
 	public double intakeButton() {
 		return controller.getTriggerAxis(Hand.kLeft);
 	}
 }
+

@@ -5,5 +5,12 @@
     "debugfile": "frcJava_roborio.debugconfig",
     "project": "InfiCharge2020",
     "language": "java"
+  },
+  {
+    "artifact": "frcJava (in project stripped)",
+    "target": "roborio",
+    "debugfile": "frcJava_roborio.debugconfig",
+    "project": "stripped",
+    "language": "java"
   }
 ]
