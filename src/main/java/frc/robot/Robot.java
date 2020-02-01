@@ -71,17 +71,6 @@ public class Robot extends TimedRobot {
 	@Override
 	public void disabledPeriodic() {
 		Scheduler.getInstance().run();
-		/*System.out.println(ultrasonic.getInches());
-		Color c = colorCommand.getClosestColor(colorCommand.getColor());
-		//if (c.equals(oldColor)) return;
-		if (!refOI.controller.getStartButtonPressed()) return;
-		if (c==Color.GREEN) System.out.println("Green");
-		if (c==Color.RED) System.out.println("Red");
-		if (c==Color.BLUE) System.out.println("Blue");
-		if (c==Color.YELLOW) System.out.println("Yellow");
-		if (c==Color.BLACK) System.out.println("Black");
-		if (c==Color.WHITE) System.out.println("White");
-		oldColor = c;*/
 	}
 
 	/**
